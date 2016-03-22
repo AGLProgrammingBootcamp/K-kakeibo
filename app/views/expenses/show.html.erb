@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>品目:</strong>
   <%= @expense.name %>
 </p>
 
 <p>
-  <strong>Cost:</strong>
+  <strong>価格:</strong>
   <%= @expense.cost %>
 </p>
 
 <p>
-  <strong>Kind:</strong>
+  <strong>個数:</strong>
   <%= @expense.kind %>
 </p>
 
-<%= link_to 'Edit', edit_expense_path(@expense) %> |
-<%= link_to 'Back', expenses_path %>
+<%= link_to "編集", edit_expense_path(@expense) %> |
+<%= link_to "戻る", expenses_path %>
